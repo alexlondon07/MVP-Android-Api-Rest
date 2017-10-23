@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/course_item_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/course_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:text="Name"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="Curso básico de Java" />
+
+    <TextView
+        android:id="@+id/course_item_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/course_item_name"
+        android:layout_below="@+id/course_item_name"
+        android:text="Teacher"
+        tools:text="Anahí Salgado Díaz de la Vega" />
+
+    <TextView
+        android:id="@+id/course_item_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/course_item_teacher"
+        android:layout_below="@+id/course_item_teacher"
+        android:text="Theme"
+        tools:text="Java EE" />
+
+    <TextView
+        android:id="@+id/course_item_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/course_item_theme"
+        android:layout_below="@+id/course_item_theme"
+        android:text="Project"
+        tools:text="Api rest con spring boot" />
+</RelativeLayout>

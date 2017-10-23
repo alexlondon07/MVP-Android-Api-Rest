@@ -8,11 +8,11 @@ import android.content.DialogInterface;
  * Created by alexlondon07 on 10/8/17.
  */
 
-public class ShowAlertDialog {
+public class ShowAlertDialogs {
 
     private Activity activity;
 
-    public ShowAlertDialog(Activity activity) {
+    public ShowAlertDialogs(Activity activity) {
         this.activity = activity;
     }
 
