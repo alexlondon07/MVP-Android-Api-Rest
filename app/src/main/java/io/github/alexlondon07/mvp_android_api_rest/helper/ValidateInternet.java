@@ -10,10 +10,10 @@ import android.net.NetworkInfo;
 
 public class ValidateInternet implements IValidateInternet{
 
-    public Context context;
+    private Context context;
 
-    public ValidateInternet(Context _context) {
-        this.context = _context;
+    public ValidateInternet(Context context){
+        this.context = context;
     }
 
     @Override
