@@ -31,10 +31,12 @@
             android:id="@+id/activity_product_fab_launch_create_course"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_margin="20dp"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/floatingActionButton"
             android:src="@drawable/ic_add_circle_black_24dp"
             />
     </android.support.design.widget.CoordinatorLayout>
 
 </LinearLayout>
+
+
